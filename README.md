@@ -1,3 +1,21 @@
+# Oh My Zsh
+
+Terminal
+
+## Website
+
+[ohmyz.sh](https://ohmyz.sh/)
+
+## OS
+
+macOS / Linux / WSL
+
+## Install 
+
+```
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
 # Homebrew
 
 Package manager
