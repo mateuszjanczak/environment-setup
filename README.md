@@ -48,3 +48,26 @@ sdk use java 17.0.1.12.1-amzn
 ```
 sdk install maven
 ```
+
+# SSH Keys
+
+SSH keys provide a more secure method of logging into a server than using a password. With SSH keys, users can log into a server without a password.
+
+## OS
+
+macOS / Linux / WSL
+
+## Usage
+
+### Generate SSH key
+
+```
+ssh-keygen -t ed25519 -C "your_email@example.com"
+```
+
+### .zshrc
+```
+# SSH Keys
+eval $(ssh-agent)
+ssh-add ~/.ssh/key_name
+```
