@@ -1,3 +1,28 @@
+# Homebrew
+
+Package manager
+
+## Website
+
+[brew.sh](https://brew.sh/)
+
+## OS
+
+macOS / Linux / WSL
+
+## Install 
+
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+### .zshrc
+
+```
+# Homebrew
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+```
+
 # SDKMAN!
 
 SDKMAN! is a tool for managing parallel versions of multiple Software Development Kits on most Unix based systems. It provides a convenient Command Line Interface (CLI) and API for installing, switching, removing and listing Candidates.
@@ -66,6 +91,7 @@ ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
 
 ### .zshrc
+
 ```
 # SSH Keys
 eval $(ssh-agent)
