@@ -97,3 +97,17 @@ ssh-keygen -t ed25519 -C "your_email@example.com"
 eval $(ssh-agent)
 ssh-add ~/.ssh/key_name
 ```
+
+# GIT
+
+Version control system
+
+## OS
+
+macOS / Linux / WSL
+
+## Install 
+
+```
+brew install git
+```
