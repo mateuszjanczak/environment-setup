@@ -1,6 +1,6 @@
 # SDKMAN!
 
-Use multiple JDKs
+SDKMAN! is a tool for managing parallel versions of multiple Software Development Kits on most Unix based systems. It provides a convenient Command Line Interface (CLI) and API for installing, switching, removing and listing Candidates.
 
 ## Website
 
@@ -41,4 +41,10 @@ sdk default java 17.0.1.12.1-amzn
 sdk use java 8.312.07.1-amzn
 sdk use java 11.0.13.8.1-amzn
 sdk use java 17.0.1.12.1-amzn
+```
+
+### Install Maven
+
+```
+sdk install maven
 ```
