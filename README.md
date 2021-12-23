@@ -92,6 +92,14 @@ sdk use java 17.0.1.12.1-amzn
 sdk install maven
 ```
 
+#### .zshrc
+
+```
+# Maven
+export M2_HOME=/home/<user>/.sdkman/candidates/maven/3.8.4
+export PATH=${M2_HOME}/bin:${PATH}
+```
+
 # SSH Keys
 
 SSH keys provide a more secure method of logging into a server than using a password. With SSH keys, users can log into a server without a password.
