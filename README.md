@@ -34,7 +34,7 @@ macOS / Linux / WSL
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-### .zshrc
+### ~/.zshrc
 
 ```
 # Homebrew
@@ -92,7 +92,7 @@ sdk use java 17.0.1.12.1-amzn
 sdk install maven
 ```
 
-#### .zshrc
+#### ~/.zshrc
 
 ```
 # Maven
@@ -116,12 +116,23 @@ macOS / Linux / WSL
 ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
 
-### .zshrc
+### ~/.zshrc
 
 ```
 # SSH Keys
 eval $(ssh-agent)
 ssh-add ~/.ssh/key_name
+```
+
+or
+
+### ~/.ssh/config
+
+```
+Host github.com
+    HostName github.com
+    PreferredAuthentications publickey
+    IdentityFile ~/.ssh/key_name
 ```
 
 # GIT
