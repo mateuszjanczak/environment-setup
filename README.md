@@ -100,6 +100,50 @@ export M2_HOME=/home/<user>/.sdkman/candidates/maven/3.8.4
 export PATH=${M2_HOME}/bin:${PATH}
 ```
 
+# NVM
+
+Node Version Manager
+
+## OS
+
+macOS / Linux / WSL
+
+## Install
+
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+```
+
+## Usage
+
+### Install Node.js
+
+```
+nvm install node
+nvm install 16
+```
+
+### Set default Node.js
+
+```
+nvm alias default 17
+nvm aliast default 16
+```
+
+### Set Node.js for current session
+
+```
+nvm use 17
+nvm use 16
+```
+
+### ~/.zshrc
+
+```
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+```
+
 # SSH Keys
 
 SSH keys provide a more secure method of logging into a server than using a password. With SSH keys, users can log into a server without a password.
