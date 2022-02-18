@@ -144,6 +144,42 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 ```
 
+# TFENV
+
+Terraform Version Manager
+
+## OS
+
+macOS / Linux / WSL
+
+## Install
+
+```
+git clone https://github.com/tfutils/tfenv.git ~/.tfenv
+```
+
+## Usage
+
+### Install Terraform
+
+```
+tfenv install 1.1.6
+tfenv install 1.1.0
+```
+
+### Set default Terraform
+
+```
+tfenv use 1.1.6
+tfenv use 1.1.0
+```
+
+### ~/.zshrc
+
+```
+export PATH="$HOME/.tfenv/bin:$PATH"
+```
+
 # SSH Keys
 
 SSH keys provide a more secure method of logging into a server than using a password. With SSH keys, users can log into a server without a password.
