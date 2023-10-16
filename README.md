@@ -47,7 +47,8 @@ SDKMAN! is a tool for managing parallel versions of multiple Software Developmen
 
 ## Website
 
-[sdkman.io](https://sdkman.io/)
+[sdkman.io](https://sdkman.io/)  
+[Installation on Windows](https://medium.com/@gayanper/sdkman-on-windows-661976238042)
 
 ## OS
 
