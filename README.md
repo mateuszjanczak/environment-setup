@@ -2,7 +2,11 @@
 
 Terminal
 
-### Website
+## OS
+
+macOS
+
+## Website
 [iterm2.com](https://iterm2.com/)
 
 # Oh My Zsh
@@ -127,7 +131,7 @@ macOS / Linux / WSL
 ## Install
 
 ```
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
 ```
 
 ## Usage
@@ -231,7 +235,7 @@ Host github.com
     IdentityFile ~/.ssh/key_name
 ```
 
-# GIT
+# Git
 
 Version control system
 
@@ -244,3 +248,30 @@ macOS / Linux / WSL
 ```
 brew install git
 ```
+
+# Textmate
+
+Fast and lightweight text editor
+
+## OS
+
+macOS
+
+## Website
+
+[macromates.com](https://macromates.com/)
+
+# Stats
+
+macOS system monitor in your menu bar
+
+## OS
+
+macOS
+
+## Install
+
+```
+brew install stats
+```
+
