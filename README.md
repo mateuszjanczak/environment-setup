@@ -87,7 +87,7 @@ Oh My Zsh is a framework for Zsh that enhances the terminal experience with plug
 
 ## Stats
 
-Stats (or system monitoring tools like iStat Menus or Activity Monitor) provides real-time insights into your Mac's performance, including CPU, memory, disk, and network usage.
+Stats provides real-time insights into your Mac's performance, including CPU, memory, disk, and network usage.
 
 [Stats](https://github.com/exelban/stats)
 
