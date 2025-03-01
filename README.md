@@ -1,277 +1,55 @@
-# iTerm2
+# Warp
 
-Terminal
+Warp is a modern terminal designed to improve productivity with features like AI command suggestions, collaborative tools, and a user-friendly interface.
 
-## OS
-
-macOS
-
-## Website
-[iterm2.com](https://iterm2.com/)
+[warp](https://www.warp.dev/)
 
 # Oh My Zsh
 
-Terminal
+Oh My Zsh is a framework for Zsh that enhances the terminal experience with plugins, themes, and simplified configuration.
 
-## Website
-
-[ohmyz.sh](https://ohmyz.sh/)
-
-## OS
-
-macOS / Linux / WSL
-
-## Install 
-
-```
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-```
-
-## Plugins
-- zsh-autosuggestions
-- zsh-syntax-highlighting
-- zsh-fast-syntax-highlighting
-- zsh-autocomplete
+[ohmyzsh](https://ohmyz.sh/)
 
 [plugins](https://gist.github.com/n1snt/454b879b8f0b7995740ae04c5fb5b7df)
 
 # Homebrew
 
-Package manager
+Homebrew is a package manager for macOS that simplifies the installation, updating, and management of software and command-line tools.
 
-## Website
-
-[brew.sh](https://brew.sh/)
-
-## OS
-
-macOS / Linux / WSL
-
-## Install 
-
-```
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
-
-### ~/.zshrc
-
-```
-# Homebrew
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-```
+[homebrew](https://brew.sh/)
 
 # SDKMAN!
 
-SDKMAN! is a tool for managing parallel versions of multiple Software Development Kits on most Unix based systems. It provides a convenient Command Line Interface (CLI) and API for installing, switching, removing and listing Candidates.
+SDKMAN! is a tool for managing multiple versions of software development kits (SDKs) like Java making it easy to install, switch, and update them.
 
-## Website
+[sdkman](https://sdkman.io/)  
 
-[sdkman.io](https://sdkman.io/)  
-[Installation on Windows](https://medium.com/@gayanper/sdkman-on-windows-661976238042)
+# nvm
 
-## OS
+nvm (Node Version Manager) is a tool that allows you to easily install, switch, and manage multiple versions of Node.js on your system.
 
-macOS / Linux / WSL
+[nvm](https://github.com/nvm-sh/nvm)
 
-## Install 
+# tfenv
 
-```
-curl -s "https://get.sdkman.io" | bash
-```
+tfenv is a tool that allows you to easily manage and switch between multiple versions of Terraform on your system.
 
-## Usage
-
-### Install JDK
-
-```
-sdk install java 8.312.07.1-amzn
-sdk install java 11.0.13.8.1-amzn
-sdk install java 17.0.1.12.1-amzn
-```
-
-
-### Set default JDK
-
-```
-sdk default java 8.312.07.1-amzn
-sdk default java 11.0.13.8.1-amzn
-sdk default java 17.0.1.12.1-amzn
-```
-
-### Set JDK for current session
-
-```
-sdk use java 8.312.07.1-amzn
-sdk use java 11.0.13.8.1-amzn
-sdk use java 17.0.1.12.1-amzn
-```
-
-### Install Maven
-
-```
-sdk install maven
-```
-
-#### ~/.zshrc
-
-```
-# Maven
-export M2_HOME=/home/<user>/.sdkman/candidates/maven/3.8.4
-export PATH=${M2_HOME}/bin:${PATH}
-```
-
-# NVM
-
-Node Version Manager
-
-## OS
-
-macOS / Linux / WSL
-
-## Install
-
-```
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
-```
-
-## Usage
-
-### Install Node.js
-
-```
-nvm install node
-nvm install 16
-```
-
-### Set default Node.js
-
-```
-nvm alias default 17
-nvm aliast default 16
-```
-
-### Set Node.js for current session
-
-```
-nvm use 17
-nvm use 16
-```
-
-### ~/.zshrc
-
-```
-export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
-```
-
-# TFENV
-
-Terraform Version Manager
-
-## OS
-
-macOS / Linux / WSL
-
-## Install
-
-```
-git clone https://github.com/tfutils/tfenv.git ~/.tfenv
-```
-
-## Usage
-
-### Install Terraform
-
-```
-tfenv install 1.1.6
-tfenv install 1.1.0
-```
-
-### Set default Terraform
-
-```
-tfenv use 1.1.6
-tfenv use 1.1.0
-```
-
-### ~/.zshrc
-
-```
-export PATH="$HOME/.tfenv/bin:$PATH"
-```
-
-# SSH Keys
-
-SSH keys provide a more secure method of logging into a server than using a password. With SSH keys, users can log into a server without a password.
-
-## OS
-
-macOS / Linux / WSL
-
-## Usage
-
-### Generate SSH key
-
-```
-ssh-keygen -t ed25519 -C "your_email@example.com"
-```
-
-### ~/.zshrc
-
-```
-# SSH Keys
-eval $(ssh-agent)
-ssh-add ~/.ssh/key_name
-```
-
-or
-
-### ~/.ssh/config
-
-```
-Host github.com
-    HostName github.com
-    PreferredAuthentications publickey
-    IdentityFile ~/.ssh/key_name
-```
+[tfenv](https://github.com/tfutils/tfenv)
 
 # Git
 
-Version control system
+Git is a distributed version control system used to track changes in source code, enabling collaboration, history management, and branching for software development.
 
-## OS
-
-macOS / Linux / WSL
-
-## Install 
-
-```
-brew install git
-```
+[git](https://git-scm.com/)
 
 # Textmate
 
-Fast and lightweight text editor
+Fast and lightweight text editor.
 
-## OS
-
-macOS
-
-## Website
-
-[macromates.com](https://macromates.com/)
+[textmate](https://macromates.com/)
 
 # Stats
 
 macOS system monitor in your menu bar
 
-## OS
-
-macOS
-
-## Install
-
-```
-brew install stats
-```
-
+[stats](https://github.com/exelban/stats)
