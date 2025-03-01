@@ -63,6 +63,12 @@ nvm (Node Version Manager) is a tool that allows you to easily install, switch, 
 
 [nvm](https://github.com/nvm-sh/nvm)
 
+## k9s
+
+k9s is a terminal-based UI for managing and interacting with Kubernetes clusters, providing a streamlined way to monitor, debug, and control your resources.
+
+[k9s](https://k9scli.io/)
+
 # System
 
 ## Homebrew
