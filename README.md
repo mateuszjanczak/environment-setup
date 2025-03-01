@@ -85,6 +85,12 @@ Oh My Zsh is a framework for Zsh that enhances the terminal experience with plug
 
 [Plugins](https://gist.github.com/n1snt/454b879b8f0b7995740ae04c5fb5b7df)
 
+## Rectangle
+
+Rectangle is a macOS window management tool that lets you easily resize and organize application windows using keyboard shortcuts or snap areas, similar to Windows' window management features.
+
+[Rectangle](https://rectangleapp.com/)
+
 ## Stats
 
 Stats provides real-time insights into your Mac's performance, including CPU, memory, disk, and network usage.
