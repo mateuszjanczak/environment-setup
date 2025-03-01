@@ -19,6 +19,12 @@ Bitwarden is a secure, open-source password manager that helps you store, organi
 
 [Bitwarden](https://bitwarden.com)
 
+## Textmate
+
+Fast and lightweight text editor.
+
+[Textmate](https://macromates.com/)
+
 # Development Tools
 
 ## IntelliJ IDEA
@@ -108,9 +114,3 @@ Rectangle is a macOS window management tool that lets you easily resize and orga
 Stats provides real-time insights into your Mac's performance, including CPU, memory, disk, and network usage.
 
 [Stats](https://github.com/exelban/stats)
-
-## Textmate
-
-Fast and lightweight text editor.
-
-[Textmate](https://macromates.com/)
