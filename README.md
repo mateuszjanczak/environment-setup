@@ -69,6 +69,12 @@ k9s is a terminal-based UI for managing and interacting with Kubernetes clusters
 
 [k9s](https://k9scli.io/)
 
+## ngrok
+
+Ngrok is a tool that creates secure tunnels to expose local servers to the internet, enabling easy testing and sharing of web applications or services.
+
+[ngrok](https://ngrok.com)
+
 # System
 
 ## Homebrew
